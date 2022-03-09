@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-02T17:52:46 COT" name="Mercury" finished-at="2022-03-02T17:52:48 COT" duration-ms="1582">
+    <groups>
+    </groups>
+    <test started-at="2022-03-02T17:52:46 COT" name="Test" finished-at="2022-03-02T17:52:48 COT" duration-ms="1582">
+      <class name="com.TestNG.RunTestNG">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestNG.RunTestNG@1f3f4916]" started-at="2022-03-02T17:52:46 COT" name="beforeClass" finished-at="2022-03-02T17:52:47 COT" duration-ms="1101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.guru99.com/selenium/newtours/index.php]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.mercadolibre.com.co/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://demoqa.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[./output/]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[./imagenes/logo_periferia.png/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="mercadoLibreTestNG(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestNG.RunTestNG@1f3f4916]" started-at="2022-03-02T17:52:47 COT" name="mercadoLibreTestNG" data-provider="datosMercadoLibre" finished-at="2022-03-02T17:52:47 COT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Si]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bicicleta]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mercadoLibreTestNG -->
+        <test-method signature="pruebaInicialTestNG(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestNG.RunTestNG@1f3f4916]" started-at="2022-03-02T17:52:48 COT" name="pruebaInicialTestNG" data-provider="datosMercury" finished-at="2022-03-02T17:52:48 COT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Si]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Miguel]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ortega]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3212123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[migue@prueba.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[cra 111 no 66-10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Bogotá]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Bogotá]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[321111]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Colombia]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Migue]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[3212363]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pruebaInicialTestNG -->
+        <test-method signature="toolsQATestNG(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestNG.RunTestNG@1f3f4916]" started-at="2022-03-02T17:52:48 COT" name="toolsQATestNG" data-provider="datosTools" finished-at="2022-03-02T17:52:48 COT" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Si]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Si]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Miguel]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ortega]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Prueba@mail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1000000]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Bogotá]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[12/01/2002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[February 26, 2012 05:50 AM]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+The method IngresoDemoQA(String, File, String) in the type PageObjectAlerts is not applicable for the arguments (String, File, String, String)
+The method IngresoDemoQA(String, File, String) in the type PageObjectAlerts is not applicable for the arguments (String, File, String, String)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+The method IngresoDemoQA(String, File, String) in the type PageObjectAlerts is not applicable for the arguments (String, File, String, String)
+The method IngresoDemoQA(String, File, String) in the type PageObjectAlerts is not applicable for the arguments (String, File, String, String)
+
+at com.TestNG.RunTestNG.toolsQATestNG(RunTestNG.java:216)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toolsQATestNG -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.TestNG.RunTestNG@1f3f4916]" started-at="2022-03-02T17:52:48 COT" name="afterClass" finished-at="2022-03-02T17:52:48 COT" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.TestNG.RunTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Mercury -->
+</testng-results>
